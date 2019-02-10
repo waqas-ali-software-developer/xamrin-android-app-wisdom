@@ -1,0 +1,1 @@
+This small android app for beginers

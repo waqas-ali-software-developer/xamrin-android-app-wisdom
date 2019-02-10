@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:wisdom"
+             x:Class="wisdom.MainPage" Title="World Wisdom for leaders" BackgroundColor="LightSkyBlue">
+
+    <StackLayout>
+        <ListView x:Name="leaderlist" ItemTapped="leaderlist_ItemTapped">
+            <ListView.ItemTemplate  >
+                <DataTemplate >
+                    <ViewCell >
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical">
+                                <Label FontSize="Medium" Text="{Binding Name}" Margin="1,6,1,0" TextColor="Maroon"/>
+                                <Label FontSize="Medium" Text="{Binding Id}" TextColor="White" IsVisible="False"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

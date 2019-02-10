@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wisdom.leadpg7" Title="Leaders Wisdom Page 7">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout Padding="3,1,1,3"  >
+                    <Label FontSize="Medium" TextColor="Red">1- Stay around with achievers and learned from them.</Label>
+                    <Label FontSize="Medium" TextColor="Black">2- Great people don't give up.</Label>
+                    <Label FontSize="Medium" TextColor="Red">3- Great people, they don't cry, they try to rebuild their dreams</Label>
+                    <Label FontSize="Medium" TextColor="Black" >4- Power matter. Make yourself powerful.</Label>
+                    <Label FontSize="Medium" TextColor="Red">5- Always serious to your wife and life.</Label>
+                    <Label FontSize="Medium" TextColor="Black">6- Practical knowledge is more important than theoretical knowledge.</Label>
+                    <Label FontSize="Medium" TextColor="Red">7- 6 things to be avoid. Fire, water, women, Idiot or fool person and politicians</Label>
+                    <Label FontSize="Medium" TextColor="Black">8- Conceal/hide your intentions from outer world.</Label>
+                    <Label FontSize="Medium" TextColor="Red">9- Learn to read people. Learn how to do lead people.</Label>
+                    <Label FontSize="Medium" TextColor="Black">10- Take right action at right time.</Label>
+                    <StackLayout HorizontalOptions="Center" Margin="0,5,0,0">
+                        <Button  Text="Back to Main Page" Clicked="GoToMainPage"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wisdom.leadpg2" Title="Leaders Wisdom Page 2">
+    <ContentPage.Content>
+        <StackLayout >
+                <ScrollView >
+                    <StackLayout Padding="3,1,1,3"  >
+            <Label FontSize="Medium" TextColor="Red" >1- Always think how to go to next level.</Label>
+            <Label FontSize="Medium" TextColor="Black" >2- Books help you to see what is already in you.</Label>
+            <Label FontSize="Medium" TextColor="Red">3- Knowledge is best friend of person.</Label>
+            <Label FontSize="Medium" TextColor="Black">4- Set high goals.</Label>
+            <Label FontSize="Medium" TextColor="Red">5- Think big. If you think big. You do big. You win big.</Label>
+            <Label FontSize="Medium" TextColor="Black">6-You visualize tomorrow but you give value today.</Label>
+            <Label FontSize="Medium" TextColor="Red">7- Maintain a good attitude.</Label>
+            <Label FontSize="Medium" TextColor="Black">8- Don’t share your secrets with other persons.</Label>
+            <Label FontSize="Medium" TextColor="Red">9- Never stop learning.</Label>
+            <Label FontSize="Medium" TextColor="Black">10- Never jealous and greed with people.</Label>
+            <Label FontSize="Medium" TextColor="Red">11- Be a world changer. Be a leader.</Label>
+            <Label FontSize="Medium" TextColor="Black">12- Delegate task others. Be specific about the task. Give them right training to the people. Give them authority to take action. Give them time frame. Give them clear picture of the outcome. Give plenty of feedback. Keep in control. Delegate not abdicate.</Label>
+            <Label FontSize="Medium" TextColor="Red">13- Never delegate an important job to a person who has never done it before.</Label>
+            <Label FontSize="Medium" TextColor="Black">14- Delegate a task someone's whom you confidently believe.</Label>
+            <Label FontSize="Medium" TextColor="Red">15- Passing tasks to a team member. Believe in other people. Give chance other people to grow. Let them do. Let them make contribution.</Label>
+                    <StackLayout HorizontalOptions="Center" Margin="0,5,0,0">
+                        <Button  Text="Back to Main Page" Clicked="GoToMainPage"/>
+                    </StackLayout>
+                </StackLayout>
+        </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

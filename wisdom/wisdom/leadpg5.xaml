@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wisdom.leadpg5" Title="Leaders Wisdom Page 5">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout Padding="3,1,1,3"  >
+                    <Label FontSize="Medium" TextColor="Red">1- Don't ignore customer signal (Customer feedback)Don't Neglect Customer feedback.</Label>
+                    <Label FontSize="Medium" TextColor="Black" >2- Convert customer feedback to feedforward.</Label>
+                    <Label FontSize="Medium" TextColor="Red">3- Convert every feedback to action able.</Label>
+                    <Label FontSize="Medium" TextColor="Black">4- Don't hire wrong man power.</Label>
+                    <Label FontSize="Medium" TextColor="Red">5- Don't be slow mover.</Label>
+                    <Label FontSize="Medium" TextColor="Black">6- Do not be too hasty to make decisions involving change. Because once a decision has made, it is difficult to change.</Label>
+                    <Label FontSize="Medium" TextColor="Red">7- Avoid repetition of mistakes.</Label>
+                    <Label FontSize="Medium" TextColor="Black">8- Study consumer behavior. What customer want.</Label>
+                    <Label FontSize="Medium" TextColor="Red">9- It doesn't matter what you want.It matters what customers wants, and if you are not providing them what they want then moving ahead will never be possible.</Label>
+                    <Label FontSize="Medium" TextColor="Black">10- Law of average. Meet maximum people to sell their products.</Label>
+                    <Label FontSize="Medium" TextColor="Red">11- Always think that how can I make it possible.</Label>
+                    <Label FontSize="Medium" TextColor="Black">12- Ask feedback if there is any problem in tender or project.</Label>
+                    <Label FontSize="Medium" TextColor="Red">13- 75.	Stop selling product to cheap people.</Label>
+                    <Label FontSize="Medium" TextColor="Black">14- Make only expensive customers. Avoid from cheap customers.</Label>
+                    <Label  TextColor="Red">15- Think assets not income.</Label>
+                    <StackLayout HorizontalOptions="Center" Margin="0,5,0,0">
+                        <Button  Text="Back to Main Page" Clicked="GoToMainPage"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

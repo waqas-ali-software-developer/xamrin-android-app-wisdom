@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wisdom.leadpg6" Title="Leaders Wisdom Page 6">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout Padding="3,1,1,3"  >
+                    <Label FontSize="Medium" TextColor="Red">1- Read people's intentions.</Label>
+                    <Label FontSize="Medium" TextColor="Black" >2- Always say less than necessary.</Label>
+                    <Label FontSize="Medium" TextColor="Red">3- Avoid and Dislike free lunch.</Label>
+                    <Label FontSize="Medium" TextColor="Black">4- Be futuristic, Future oriented, Barrier free thinker</Label>
+                    <Label FontSize="Medium" TextColor="Red">5- Never forget your roots.</Label>
+                    <Label FontSize="Medium" TextColor="Black">6- Stay hungry for full filling your goal, be so hungry that you can't see anything except your goals.</Label>
+                    <Label FontSize="Medium" TextColor="Red">7- Try to think about your goals as much as you can.</Label>
+                    <Label FontSize="Medium" TextColor="Black">8- Fake it until you make it.</Label>
+                    <Label FontSize="Medium" TextColor="Red">9- You must have action oriented attitude.</Label>
+                    <Label FontSize="Medium" TextColor="Black">10- Take massive actions to complete your goals.</Label>
+                    <Label FontSize="Medium" TextColor="Red">11- Take more actions to get more results.</Label>
+                    <Label FontSize="Medium" TextColor="Black">12- In bussiness xpansion without gross margin is committing suicide.</Label>
+                    <Label FontSize="Medium" TextColor="Red">13- Always be updated. Don't be outdated.</Label>
+                    <Label FontSize="Medium" TextColor="Black">14- Make big vision.</Label>
+                    <Label FontSize="Medium" TextColor="Red">15- Always make a plan before going to a shopping. Shopping without a plan will make you do overspending.</Label>
+                    <StackLayout HorizontalOptions="Center" Margin="0,5,0,0">
+                        <Button  Text="Back to Main Page" Clicked="GoToMainPage"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

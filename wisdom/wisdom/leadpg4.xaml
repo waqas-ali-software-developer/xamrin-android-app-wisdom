@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wisdom.leadpg4" Title="Leaders Wisdom Page 4">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout Padding="3,1,1,3"  >
+                    <Label FontSize="Medium" TextColor="Red">1- Lead from front. Lead from action not words.</Label>
+                    <Label FontSize="Medium" TextColor="Black" >2- Take pause before replying.</Label>
+                    <Label FontSize="Medium" TextColor="Red">3- Selling takes place with the words but buying take place in the silence.</Label>
+                    <Label FontSize="Medium" TextColor="Black">4- You will not find customer in office or home.</Label>
+                    <Label FontSize="Medium" TextColor="Red">5- If you are not spend your time with customer. You are doing nothing.</Label>
+                    <Label FontSize="Medium" TextColor="Black">6- Respect the words when you communicating others and communicating yourself.</Label>
+                    <Label FontSize="Medium" TextColor="Red">7- Communications will produce results positive or negative in your life.</Label>
+                    <Label FontSize="Medium" TextColor="Black">8- 54.	Never leave the sure for unsure.</Label>
+                    <Label FontSize="Medium" TextColor="Red">9- Profitability = product + people.</Label>
+                    <Label FontSize="Medium" TextColor="Black">10- There are 3 reasons why people like our products Quality, Quality and Quality.</Label>
+                    <Label FontSize="Medium" TextColor="Red">11- Hire people who have more knowledge in their field.</Label>
+                    <Label FontSize="Medium" TextColor="Black">12- Select team member who have dreams.</Label>
+                    <Label FontSize="Medium" TextColor="Red">13- Do not attempt to institute a new procedure or change unless you are prepared to follow through.</Label>
+                    <Label FontSize="Medium" TextColor="Black">14- Play (Use) well with others.</Label>
+                    <Label FontSize="Medium" TextColor="Red">15- Increased employed problem solving skills.</Label>
+                    <StackLayout HorizontalOptions="Center" Margin="0,5,0,0">
+                        <Button  Text="Back to Main Page" Clicked="GoToMainPage"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

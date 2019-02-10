@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wisdom.leadpg3" Title="Leaders Wisdom Page 3">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout Padding="3,1,1,3"  >
+                    <Label FontSize="Medium" TextColor="Red">1- Don't take others monkey’s (unnecessary responsibility).</Label>
+                    <Label FontSize="Medium" TextColor="Black" >2- Always compete with yourself.</Label>
+                    <Label FontSize="Medium" TextColor="Red">3- Think like important people. Talk like important people. Dressing like important people.</Label>
+                    <Label FontSize="Medium" TextColor="Black">4- Always use proven success methods.</Label>
+                    <Label FontSize="Medium" TextColor="Red">5- Make worthy presentation, like someone will give you 50,000 dollars of this presentation.</Label>
+                    <Label FontSize="Medium" TextColor="Black">6- Don't talk bad about competitor. Pass positive comments.</Label>
+                    <Label FontSize="Medium" TextColor="Red">7- Look straight during walk, serious and walk with attitude.</Label>
+                    <Label FontSize="Medium" TextColor="Black">8- Words has a power to create. Words has a power to destroy.</Label>
+                    <Label FontSize="Medium" TextColor="Red">9- Don't stay too long with friends or relative house .Before people will ignore you, go (leave) it. Like political person in rally come late and go early. Don't be available at all places at all the time.</Label>
+                    <Label FontSize="Medium" TextColor="Black">10- Learn when to leave and how to make an exit.</Label>
+                    <Label FontSize="Medium" TextColor="Red">11- Let them people miss you.</Label>
+                    <Label FontSize="Medium" TextColor="Black">12- Demand and supply. The thing which is less in market has more demand.</Label>
+                    <Label FontSize="Medium" TextColor="Red">13- Don't be ordinary.</Label>
+                    <Label FontSize="Medium" TextColor="Black">14- Stop worrying about people who are not worrying about you.</Label>
+                    <Label FontSize="Medium" TextColor="Red">15- 46.	The more difficult problem you solve the more you will succeed in life.</Label>
+                    <StackLayout HorizontalOptions="Center" Margin="0,5,0,0">
+                        <Button  Text="Back to Main Page" Clicked="GoToMainPage"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

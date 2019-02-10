@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="wisdom.leadpg1" Title="Leaders Wisdom Page 1">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout Padding="3,1,1,3"  >
+                    <Label FontSize="Medium" TextColor="Red">1- Leadership means sacrifice.</Label>
+                    <Label FontSize="Medium" TextColor="Black" >2- Leaders can't break trust.</Label>
+                    <Label FontSize="Medium" TextColor="Red">3-Leader. 
+L = lead by example. 
+E = enthusiastic, Excitement can do everything in the world. Leader should always be excited.
+A = ambitious, Leader should ambitious to achieve goal.
+D = determined. Leader should be determined to their goal.
+E = encourage others. A good leader always encourage the team leader.
+R. = ready to learn and, teach others what he knows and create good leaders in his team.
+                    </Label>
+                    <Label FontSize="Medium" TextColor="Black">4-True leaders first listen, learn and then lead. </Label>
+                    <Label FontSize="Medium" TextColor="Red">5-Leaders always Learn from past.</Label>
+                    <Label FontSize="Medium" TextColor="Black">6- Act better than expect</Label>
+                    <Label FontSize="Medium" TextColor="Red">7- Spend time with good thinkers.</Label>
+                    <Label FontSize="Medium" TextColor="Black">8- If you want to look like a king. Behave like a king.</Label>
+                    <Label FontSize="Medium" TextColor="Red">9- Create great leader skills:</Label>
+                    <Label FontSize="Medium" TextColor="Black">10- Build a support system, be accountable, and learn to say 'NO', Prioritize your life Looser to conquer, understand the change, and get organized.</Label>
+                    <Label FontSize="Medium" TextColor="Red">11- Avoid what is strong. Attack what is weak. Do difficult work in company which other cannot do.</Label>
+                    <Label FontSize="Medium" TextColor="Black">12- Read more books for wisdom.</Label>
+                    <Label FontSize="Medium" TextColor="Red">13- Invest in your brain.</Label>
+                    <Label FontSize="Medium" TextColor="Black">14- Read more, learn more, laugh more and love more.</Label>
+                    <Label FontSize="Medium" TextColor="Red">15- Carry a book wherever you go.</Label>
+                    <StackLayout HorizontalOptions="Center" Margin="0,5,0,0">
+                        <Button  Text="Back to Main Page" Clicked="GoToMainPage"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
